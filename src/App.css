@@ -1,0 +1,48 @@
+* {
+  font-family: 'Quattrocento';
+}
+.container {
+  background-color: white;
+  width: 500px;
+  height: 420px;
+  margin: 0;
+  border-radius: 20px;
+
+}
+.end {
+
+  display: grid;
+  grid-template-columns: 100px 100px;
+  justify-content: center;
+  column-gap: 220px;
+}
+.author {
+font-size: 15px;
+}
+.twiter-github {
+ display: grid;
+ grid-template-columns: 50px 50px;
+ column-gap: 20px;
+
+}
+.quote {
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+}
+.inside-quote {
+  
+  width: 500px;
+  height: 175px;
+  margin-bottom: 100px;
+}
+
+.iconDiv {
+  margin: 10px 0 0 0;
+
+}
+.footer {
+  margin: 10px 0;
+  text-align: center;
+  color: white;
+}
